@@ -1,6 +1,6 @@
 spring:
   application:
-    name: sell-obj-order
+    name: order
   cloud:
     config:
       discovery:

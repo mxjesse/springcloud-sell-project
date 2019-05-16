@@ -18,8 +18,8 @@ public class EnvController {
     @Value("${env}")
     private String env;
 
-    @Value("${name}")
-    private String name;
+//    @Value("${name}")
+//    private String name;
 
 
     @GetMapping("/get")
@@ -28,9 +28,9 @@ public class EnvController {
         return env;
     }
 
-    @GetMapping("/name")
-    public String getName() {
-
-        return name;
-    }
+//    @GetMapping("/name")
+//    public String getName() {
+//
+//        return name;
+//    }
 }
