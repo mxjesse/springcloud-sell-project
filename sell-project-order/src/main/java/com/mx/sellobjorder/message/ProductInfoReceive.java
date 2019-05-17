@@ -20,6 +20,7 @@ public class ProductInfoReceive {
 
     @RabbitListener(queuesToDeclare = @Queue("productInfoQueue"))
     public void reduceStock(String msg) {
-        JSON.parseObject(msg, ProductInfoOutput.class);
+        ProductInfoOutput productInfoOutput = JSON.parseObject(msg, ProductInfoOutput.class);
+
     }
 }
