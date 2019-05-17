@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.mx</groupId>
-    <artifactId>sell-obj-order</artifactId>
+    <artifactId>sell-project-order</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sell-obj-order</name>
+    <name>sell-project-order</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

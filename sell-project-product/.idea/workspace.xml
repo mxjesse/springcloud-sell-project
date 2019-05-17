@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb51bf-4422-4931-935b-caea0e673cfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../sell-project-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sell-project-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sell-project-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sell-project-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sell-project-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sell-project-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sell-project-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sell-project-server/src/main/java/com/mx/sellobjserver/SellObjServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sell-project-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sell-project-server/src/test/java/com/mx/sellobjserver/SellObjServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sell-obj-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sell-obj-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sell-obj-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sell-obj-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sell-obj-server/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sell-obj-server/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sell-obj-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sell-obj-server/src/main/java/com/mx/sellobjserver/SellObjServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sell-obj-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sell-obj-server/src/test/java/com/mx/sellobjserver/SellObjServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sell-obj-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sell-obj-order/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -531,7 +511,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558059387674" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558059630021" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -639,6 +619,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="969" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
