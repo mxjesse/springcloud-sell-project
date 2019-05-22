@@ -2,34 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb51bf-4422-4931-935b-caea0e673cfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bus_amqp_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-server/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-common/src/main/java/com/mx/product/common/DecreaseStockInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/enums/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/exception/ProductException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/util/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell-project-user/user-server/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../config" beforeDir="false" afterPath="$PROJECT_DIR$/../config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sell-project-order/src/main/java/com/mx/sellobjorder/message/ProductInfoReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sell-project-order/src/main/java/com/mx/sellobjorder/message/ProductInfoReceive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-common/src/main/java/com/mx/product/common/ProductInfoOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-common/src/main/java/com/mx/product/common/ProductInfoOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-common/target/classes/com/mx/product/common/ProductInfoOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-common/target/classes/com/mx/product/common/ProductInfoOutput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/product-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-common/target/product-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/product-common/target/product-common-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/repository/ProductInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/repository/ProductInfoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,31 +87,31 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="3" />
-          <entry key="java" value="28" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="59" />
+          <entry key="properties" value="4" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="28" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="59" />
+          <entry key="Properties" value="4" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="25" />
-          <entry key="properties" value="164" />
-          <entry key="xml" value="98" />
+          <entry key="java" value="1200" />
+          <entry key="properties" value="357" />
+          <entry key="xml" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25" />
-          <entry key="Properties" value="164" />
-          <entry key="XML" value="98" />
+          <entry key="JAVA" value="1200" />
+          <entry key="Properties" value="357" />
+          <entry key="XML" value="154" />
         </counts>
       </usages-collector>
     </session>
@@ -128,10 +119,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/repository/ProductCategoryRepository.java">
+        <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="31">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,21 +131,68 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/util/ResultVOUtil.java">
+        <entry file="file://$PROJECT_DIR$/product-common/src/main/java/com/mx/product/common/ProductInfoOutput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="395">
+              <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+              <folding>
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1271#1272#0" expanded="true" />
+                <element signature="e#1319#1320#0" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#1533#1534#0" expanded="true" />
+                <element signature="e#1571#1572#0" expanded="true" />
+                <element signature="e#1605#1606#0" expanded="true" />
+                <element signature="e#1659#1660#0" expanded="true" />
+                <element signature="e#1705#1706#0" expanded="true" />
+                <element signature="e#1739#1740#0" expanded="true" />
+                <element signature="e#1768#1769#0" expanded="true" />
+                <element signature="e#1813#1814#0" expanded="true" />
+                <element signature="e#1849#1850#0" expanded="true" />
+                <element signature="e#1889#1890#0" expanded="true" />
+                <element signature="e#1924#1925#0" expanded="true" />
+                <element signature="e#1981#1982#0" expanded="true" />
+                <element signature="e#2029#2030#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/repository/ProductInfoRepository.java">
+        <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="1425">
+              <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/ProductServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,7 +201,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/impl/ProductCategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="255">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -172,53 +210,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/domain/ProductCategory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/domain/ProductInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/controller/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="54" column="69" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/impl/ProductInfoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="77" column="40" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="40" />
+            <state relative-caret-position="247">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/ProductService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -226,8 +234,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product-server/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product-common/src/main/java/com/mx/product/common/DecreaseStockInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -238,6 +264,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -251,6 +279,8 @@
       <find>strea</find>
       <find>config</find>
       <find>bus</find>
+      <find>fast</find>
+      <find>product</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -272,20 +302,26 @@
         <option value="$PROJECT_DIR$/product-common/src/main/java/com/mx/product/ProductCommonApplication.java" />
         <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/ProductInfoOutput.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/mx/product/common/ProductInfoOutput.java" />
-        <option value="$PROJECT_DIR$/product-common/src/main/java/com/mx/product/common/ProductInfoOutput.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/product-common/pom.xml" />
-        <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/repository/ProductInfoRepository.java" />
         <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/repository/ProductCategoryRepository.java" />
-        <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/util/ResultVOUtil.java" />
         <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/impl/ProductInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/impl/ProductCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/ProductCategoryService.java" />
         <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/ProductServerApplication.java" />
         <option value="$PROJECT_DIR$/product-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/product-server/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/repository/ProductInfoRepository.java" />
+        <option value="$PROJECT_DIR$/product-common/src/main/java/com/mx/product/common/DecreaseStockInput.java" />
+        <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/enums/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/exception/ProductException.java" />
         <option value="$PROJECT_DIR$/product-server/pom.xml" />
+        <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/util/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/product-common/src/main/java/com/mx/product/common/ProductInfoOutput.java" />
+        <option value="$PROJECT_DIR$/product-server/src/main/resources/bootstrap.properties" />
       </list>
     </option>
   </component>
@@ -304,7 +340,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="product-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="product-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -388,99 +434,6 @@
               <item name="mx" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sell-project-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sell-project-product" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mx" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sell-project-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sell-project-product" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mx" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sell-project-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sell-project-product" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mx" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sell-project-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sell-project-product" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mx" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sell-project-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sell-project-product" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mx" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sell-project-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sell-project-product" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mx" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sell-project-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sell-project-product" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mx" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sell-project-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sell-project-product" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -505,7 +458,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558088747393" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558491588456" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -604,17 +557,18 @@
       <updated>1558023126825</updated>
       <workItem from="1558023130145" duration="941000" />
       <workItem from="1558024108831" duration="2059000" />
-      <workItem from="1558026248496" duration="5832000" />
+      <workItem from="1558026248496" duration="26467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8832000" />
+    <option name="totallyTimeSpent" value="29467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="969" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -622,10 +576,10 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3295325" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35803878" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32839224" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -645,7 +599,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32967034" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,22 +641,8 @@
     <entry file="file://$MAVEN_REPOSITORY$/com/mx/product-common/1.0-SNAPSHOT/product-common-1.0-SNAPSHOT.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-common/src/main/java/com/mx/product/common/ProductInfoOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product-server/product-server.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -721,23 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/ProductCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/ProductInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/enums/ProductStatusEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -752,17 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/ProductServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/util/ResultVOUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -770,17 +682,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/resources/bootstrap.properties">
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/domain/ProductCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/enums/ResultEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="77" column="40" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="40" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/exception/ProductException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -794,7 +727,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/repository/ProductInfoRepository.java">
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/domain/ProductInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/impl/ProductInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/ProductCategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
@@ -804,10 +754,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/impl/ProductInfoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/util/JsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/repository/ProductInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/ProductInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -816,7 +783,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/impl/ProductCategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="255">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -824,27 +791,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/domain/ProductCategory.java">
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/domain/ProductInfo.java">
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        <state relative-caret-position="31">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-common/src/main/java/com/mx/product/common/DecreaseStockInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-common/src/main/java/com/mx/product/common/ProductInfoOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding>
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="true" />
+            <element signature="e#1659#1660#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1768#1769#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#1849#1850#0" expanded="true" />
+            <element signature="e#1889#1890#0" expanded="true" />
+            <element signature="e#1924#1925#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#2029#2030#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="54" column="69" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="69" />
+        <state relative-caret-position="1425">
+          <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/mx/product/ProductServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>

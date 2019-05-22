@@ -25,4 +25,5 @@ public interface ProductInfoRepository extends JpaRepository<ProductInfo, Intege
      * @return
      */
     public List<ProductInfo> findByProductIdIn(List<Integer> productIds);
+
 }

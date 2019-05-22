@@ -1,15 +1,18 @@
 package com.mx.product.controller;
 
+import com.mx.product.common.DecreaseStockInput;
 import com.mx.product.domain.ProductCategory;
 import com.mx.product.domain.ProductInfo;
 import com.mx.product.service.ProductCategoryService;
 import com.mx.product.service.ProductInfoService;
+import com.mx.product.service.ProductService;
 import com.mx.product.util.ResultVOUtil;
 import com.mx.product.vo.ProductInfoVO;
 import com.mx.product.vo.ProductVO;
 import com.mx.product.vo.ResultVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -30,6 +33,9 @@ public class ProductController {
 
     @Autowired
     private ProductCategoryService productCategoryService;
+
+    @Autowired
+    private ProductService productService;
 
     /**
      * 查询上架商品列表
@@ -74,5 +80,11 @@ public class ProductController {
         });
 
         return ResultVOUtil.success(list);
+    }
+
+    @RequestMapping("/decreaseStock")
+    public void decreaseStock(@RequestBody List<DecreaseStockInput> decreaseStockInputs) {
+
+        productService.decreaseStock(decreaseStockInputs);
     }
 }
